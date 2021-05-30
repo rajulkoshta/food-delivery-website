@@ -1,0 +1,22 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+    /* padding: 3px 68px; */
+}
+#navbar ul li a{
+    font-size: 1.4rem;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+/* home section */
+#home{
+    height:450px;
+    padding: 3px 50px;
+
+}
+#home::before{
+    height: 600pxpx;
+}
+#home p{
+    font-size: 20px;
+}
