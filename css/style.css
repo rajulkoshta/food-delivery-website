@@ -79,7 +79,7 @@ html{
   #home::before{
     content: "";
       /* hum abhi CSS folder me hain isliye bahr wale folder ko access karne ke liye "../" lagega */
-    background:url('../bg4.jpg') no-repeat center center/cover;  
+    background:url('../bg-img/bg4.jpg') no-repeat center center/cover;  
     position: absolute;
     top: 0px;
     left:0px;
@@ -144,7 +144,7 @@ height: 680px;
 
 #client-section::before{
     content: "";
-    background: url('../bg3.jpg') no-repeat center center/cover ;
+    background: url('../bg-img/bg3.jpg') no-repeat center center/cover ;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -198,7 +198,7 @@ height: 680px;
     height: 100%;
     z-index: -1;
     opacity:0.7;
-    background: url('../contact.jpg') no-repeat center center/cover;
+    background: url('../bg-img/contact.jpg') no-repeat center center/cover;
 }
 
 #contact-box{
